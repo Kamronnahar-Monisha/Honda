@@ -1,0 +1,74 @@
+
+
+
+
+
+/* Home Section */
+#home,footer{
+    background-color: #264653;
+}
+.navbar-dark .navbar-toggler{
+    border:none;
+}
+.bg-cus-orange{
+    background-color:#E76F51;
+}
+.cus-orange{
+    color:#E76F51;
+}
+nav button{
+    position:relative;
+    top:-10px;
+    padding:5px 20px;
+    border:none;
+    border-radius:5px;
+} 
+
+
+
+
+/* bike-collection */
+#bike-collection-header p{
+    font-size: 25px;
+}
+#bike-collection-header p::after{
+    content:" ";
+    display:block;
+    width:100px;
+    height:2px;
+    margin:10px auto;
+    background-color:#E76F51;
+}
+.grayscale{
+    filter: grayscale(100%);
+}
+
+
+
+
+
+/* News Section */
+.news-btn{
+    border:#E76F51 2px solid;
+    color:#E76F51;
+}
+.news-btn:hover{
+    background-color:#E76F51;
+    color:white;
+}
+
+
+
+/* Client Section */
+#client-showcase h4{
+    color:#23A6F0;
+}
+
+
+/* Footer Section */
+footer img{
+    width:25%;
+}
+.ps-10{
+    padding-left:10%;
+}
